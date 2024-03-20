@@ -9,7 +9,7 @@ numeroSecreto = 38
 numeroTentativas = 3
 rodada = 1
 
-while(numeroTentativas <= numeroTentativas):
+while(rodada <= numeroTentativas):
     print('Tentativa',rodada, 'de' , numeroTentativas)
 
 #Recebendo o chute do jogador
@@ -24,8 +24,11 @@ while(numeroTentativas <= numeroTentativas):
         print('Você errou!! O número secreto é um número menor')
     else:
         print('Você errou!! O número secreto é um número maior')
-        
+
     #numeroTentativas = numeroTentativas - 1
     rodada = rodada + 1
 
+
+
 #Aula Elif 26.02.24
+
