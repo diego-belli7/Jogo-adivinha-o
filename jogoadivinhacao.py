@@ -35,7 +35,7 @@ while(rodada <= numeroTentativas):
 
 #Declarando as condições
     if (numeroSecreto == chute):
-        print('Você acertou!')
+        print('Você acertou! E sua pontuação foi: ',pontos)
         break
     elif(chute>numeroSecreto):
         print('Você errou!! O número secreto é um número menor')
